@@ -1,0 +1,141 @@
+changelog
+
+----------------------------------------
+fabien - 13/11/19
+creation Makefile
+----------------------------------------
+vincent devine - 13/11/19
+rendre compilable main
+----------------------------------------
+vincent devine - 13/11/19
+rendre compilable justePrix
+----------------------------------------
+vincent devine - 13/11/19
+rendre compilable joueur
+----------------------------------------
+vincent devine - 13/11/19
+rendre compilable ihm
+----------------------------------------
+fabien bounoir - 13/11/19
+modification Makefile
+----------------------------------------
+vincent devine - 14/11/19
+creation get/set (justePrix)
+----------------------------------------
+vincent devine - 14/11/19
+completer methode creerPrixATrouver
+----------------------------------------
+vincent devine - 14/11/19
+completer methode récupererPrix
+----------------------------------------
+fabien bounoir - 14/11/19
+completer methode verifierPrix
+----------------------------------------
+vincent devine - 14/11/19
+ajouter classe historique
+----------------------------------------
+vincent devine - 14/11/19
+creation relation
+----------------------------------------
+fabien bounoir - 14/11/19
+constructeur juste prix
+----------------------------------------
+fabien bounoir - 14/11/19
+completer methode affiche
+----------------------------------------
+fabien bounoir - 14/11/19 - 18h50
+rajout de get/set classe joueur
+----------------------------------------
+fabien bounoir - 14/11/19 - 19h15
+rajout demande de rejouer
+----------------------------------------
+fabien bounoir - 14/11/19 - 20h40
+creation vector scoreHistorique
+----------------------------------------
+fabien bounoir - 14/11/19 - 23h40
+modification methode ajouter
+----------------------------------------
+fabien bounoir - 15/11/19 - 16h00
+finalisation classe historique (get/set)
+----------------------------------------
+vincent devine - 20/11/19 - 09h10
+correcton warning relation classe
+----------------------------------------
+vincent devine - 20/11/19 - 09h22
+ajout cheat
+----------------------------------------
+fabien bounoir - 20/11/19 - 14h05
+redéclaration d'un attribut scoreHistorique dans le constructeur Historique() corriger
+----------------------------------------
+fabien bounoir - 20/11/19 - 14h11
+méthode const corriger
+----------------------------------------
+fabien bounoir - 20/11/19 - 14h11
+ajout des delete ?
+----------------------------------------
+fabien bounoir - 20/11/19 - 15h15
+enlever cin classe JustePrix
+----------------------------------------
+fabien bounoir - 20/11/19 - 15h15
+appele fonction verifierPrix  dans boucle methode jouer() 
+----------------------------------------
+fabien bounoir - 20/11/19 - 17h40
+creation methode dans class historique -> testerScore()
+----------------------------------------
+fabien bounoir - 20/11/19 - 18h20
+creation methode dans class ihm -> afficherPositionScore()
+----------------------------------------
+fabien bounoir - 20/11/19 - 18h45
+creation methode dans class ihm -> afficherMeilleurScore()
+----------------------------------------
+fabien bounoir - 21/11/19 - 18h45
+ajout classe meilleurScore
+----------------------------------------
+fabien bounoir - 21/11/19 - 21h23
+modification Nom methode pour une meilleur cohérence 
+----------------------------------------
+fabien bounoir - 24/11/19 - 22h05
+Correction bug affichage historique partie (l'affichage ne s'effectuait pas dans le bon ordre).
+----------------------------------------
+fabien bounoir - 26/11/19 - 18h58
+creation boucle rejouer
+----------------------------------------
+fabien bounoir - 26/11/19 - 19h50
+creation menu choix : jouer, voir les meilleurs scores, voir l'historique , quitter
+----------------------------------------
+fabien bounoir - 26/11/19 - 21h35
+correction --> un coup déjà proposé est re-comptablisé (boucle qui verifie)
+----------------------------------------
+vincent devine - 27/11/19 - 11h45
+ajout chronometre partir
+----------------------------------------
+fabien bounoir - 27/11/19 - 11h50
+ajout afficher borne de jeu suivant la difficulter
+----------------------------------------
+fabien bounoir - 27/11/19 - 13h35
+ajout fonction ecriture fichier
+----------------------------------------
+Vincent Devine - 27/11/19 - 14h05
+ajout affichage h/m/s 
+----------------------------------------
+Vincent Devine - 27/11/19 - 15h36
+correction bug 3.0
+----------------------------------------
+fabien bounoir - 27/11/19 - 22h45
+ajout fichier score suivant la difficulter
+----------------------------------------
+fabien bounoir - 28/11/19 - 19h30
+correction faute orthographe
+----------------------------------------
+fabien bounoir - 28/11/19 - 22h10
+creation fonction qui choisi le fichier en fonction de la difficulter
+----------------------------------------
+fabien bounoir - 30/11/19 - 10h45
+correction toute les fautes d'orthographe
+----------------------------------------
+fabien bounoir - 30/11/19 - 11h50
+une couleur est differente pour moins / plus / gagné
+----------------------------------------
+fabien bounoir - 30/11/19 - 12h05
+ajout fonctionnaliter le prix n'est pas pris en compte si il est en dehors des bornes de jeu
+----------------------------------------
